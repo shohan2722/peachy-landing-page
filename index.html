@@ -1,8 +1,7 @@
 <!doctype html>
-<html lang="en">
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Peachy — Botox That Looks Like You, Just More Rested</title>
   <style>
     /* ─── tokens — Peachy brand ───────────────────────────────────────── */
@@ -62,9 +61,11 @@
       -webkit-font-smoothing: antialiased;
       overflow-x: hidden;
     }
-    img, svg { display: block; max-width: 100%; }
-    a { color: inherit; text-decoration: none; }
-    button { font: inherit; cursor: pointer; }
+     img, svg { display: block; max-width: 100%; }
+     a { color: inherit; text-decoration: none; transition: color .15s ease, outline .15s ease; }
+     a:hover { color: var(--accent); }
+     a:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; border-radius: 2px; }
+     button { font: inherit; cursor: pointer; }
     p { text-wrap: pretty; }
     h1, h2, h3, h4 { text-wrap: balance; }
 
@@ -122,11 +123,13 @@
       padding: 15px 26px; border-radius: var(--radius-pill);
       border: 1.5px solid transparent; font-size: 15.5px; font-weight: 600;
       letter-spacing: -0.005em; line-height: 1.1; min-height: 52px;
-      transition: transform .06s ease, background .18s ease, border-color .18s ease, color .18s ease;
+      transition: transform .06s ease, background .18s ease, border-color .18s ease, color .18s ease, box-shadow .18s ease;
     }
     .btn:active { transform: translateY(1px); }
+    .btn:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
     .btn-primary { background: var(--cta); color: #fff; border-color: var(--cta); }
     .btn-primary:hover { background: var(--cta-hover); border-color: var(--cta-hover); }
+    .btn-primary:focus-visible { outline-color: var(--accent); }
     .btn-peach { background: var(--accent); color: var(--fg); border-color: var(--accent); }
     .btn-peach:hover { background: var(--accent-deep); border-color: var(--accent-deep); color: #fff; }
     .btn-secondary { background: transparent; color: var(--fg); border-color: var(--fg); }
@@ -177,12 +180,17 @@
       box-shadow: 0 16px 40px -16px color-mix(in oklch, var(--fg) 45%, transparent);
     }
     .hero-prod img { width: 100%; height: 100%; object-fit: cover; }
-    @media (max-width: 920px) {
-      .hero-grid { grid-template-columns: 1fr; gap: 36px; }
-      .hero-media .media { aspect-ratio: 4 / 3; }
-      .hero-prod { width: 92px; height: 92px; right: 8px; }
-      .hero-badge { left: 8px; }
-    }
+     @media (max-width: 920px) {
+       .hero-grid { grid-template-columns: 1fr; gap: 36px; }
+       .hero-media .media { aspect-ratio: 4 / 3; }
+       .hero-prod { width: 92px; height: 92px; right: 8px; }
+       .hero-badge { left: 8px; }
+     }
+     @media (max-width: 480px) {
+       .hero-badge { max-width: 200px; padding: 12px 14px; font-size: 12px; }
+       .hero-badge p { font-size: 12px; }
+       .hero-prod { width: 80px; height: 80px; }
+     }
 
     /* ─── trust bar ─────────────────────────────────────────────────── */
     .trustbar { background: var(--fg); color: var(--bg); }
@@ -225,16 +233,20 @@
     .pillar .price { margin-top: 16px; font-family: var(--font-display); font-size: 24px; color: var(--fg); letter-spacing: -0.01em; }
     .pillar .price span { font-size: 14px; color: var(--muted); font-family: var(--font-body); }
 
-    /* ─── steps ─────────────────────────────────────────────────────── */
-    .step-row { display: grid; grid-template-columns: 88px 1fr; gap: var(--gap-lg); padding: 30px 0; border-top: 1px solid var(--border); align-items: start; }
-    .step-row:last-child { border-bottom: 1px solid var(--border); }
-    .step-num { font-family: var(--font-display); font-size: 56px; line-height: 0.9; color: var(--accent); letter-spacing: -0.03em; font-weight: 600; }
-    .step-body h3 { margin-bottom: 8px; font-size: 21px; }
-    .step-body p { margin: 0; color: var(--muted); font-size: 16px; line-height: 1.65; max-width: 62ch; }
-    @media (max-width: 600px) {
-      .step-row { grid-template-columns: 1fr; gap: 6px; padding: 24px 0; }
-      .step-num { font-size: 40px; }
-    }
+     /* ─── steps ─────────────────────────────────────────────────────── */
+     .step-row { display: grid; grid-template-columns: 88px 1fr; gap: var(--gap-lg); padding: 30px 0; border-top: 1px solid var(--border); align-items: start; }
+     .step-row:last-child { border-bottom: 1px solid var(--border); }
+     .step-num { font-family: var(--font-display); font-size: 56px; line-height: 0.9; color: var(--accent); letter-spacing: -0.03em; font-weight: 600; }
+     .step-body h3 { margin-bottom: 8px; font-size: 21px; }
+     .step-body p { margin: 0; color: var(--muted); font-size: 16px; line-height: 1.65; max-width: 62ch; }
+     @media (max-width: 768px) {
+       .step-num { font-size: 48px; }
+     }
+     @media (max-width: 600px) {
+       .step-row { grid-template-columns: 1fr; gap: 6px; padding: 24px 0; }
+       .step-num { font-size: 36px; }
+       .step-body h3 { font-size: 18px; }
+     }
 
     /* ─── testimonials ──────────────────────────────────────────────── */
     .cluster-label { font-family: var(--font-mono); font-size: 11.5px; letter-spacing: 0.12em; text-transform: uppercase; color: var(--accent-deep); margin: 0 0 var(--gap-md); display: flex; align-items: center; gap: 12px; }
@@ -249,10 +261,18 @@
 
     /* ─── before / after ────────────────────────────────────────────── */
     .ba-card { background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius-lg); overflow: hidden; }
-    .ba-card .media { border-radius: 0; aspect-ratio: 4 / 5; }
+    .ba-card .media { border-radius: 0; aspect-ratio: 1 / 1.3; object-fit: contain; object-position: center; }
+    .ba-card .media img { width: 100%; height: 100%; object-fit: contain; object-position: center; display: block; }
     .ba-card .ba-cap { padding: 16px 18px; display: flex; align-items: center; justify-content: space-between; gap: 10px; }
     .ba-card .ba-cap span { font-size: 14px; color: var(--fg); font-weight: 600; }
     .ba-card .ba-cap .meta { font-size: 12px; }
+    .ba-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: clamp(20px, 4vw, 32px); }
+    @media (max-width: 800px) {
+      .ba-grid { grid-template-columns: 1fr; }
+    }
+    @media (max-width: 600px) {
+      .ba-grid { grid-template-columns: 1fr; gap: 16px; }
+    }
 
     /* ─── what's included ───────────────────────────────────────────── */
     .incl-row { display: grid; grid-template-columns: 36px 1fr; gap: 20px; padding: 26px 0; border-top: 1px solid var(--border); }
@@ -297,12 +317,24 @@
 
     /* ─── treatments ────────────────────────────────────────────────── */
     .treat { background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius-lg); overflow: hidden; display: flex; flex-direction: column; height: 100%; }
-    .treat .media { border-radius: 0; aspect-ratio: 4 / 3; }
-    .treat .treat-body { padding: 26px; display: flex; flex-direction: column; flex: 1; }
-    .treat h3 { margin: 0 0 10px; font-family: var(--font-display); font-size: 22px; letter-spacing: -0.01em; }
+    .treat .media { border-radius: 0; aspect-ratio: 1 / 1; background: color-mix(in oklch, var(--bg) 50%, var(--surface)); }
+    .treat .media img { object-fit: contain; object-position: center; background: color-mix(in oklch, var(--bg) 50%, var(--surface)); }
+    .treat .treat-body { padding: 28px; display: flex; flex-direction: column; flex: 1; }
+    .treat h3 { margin: 0 0 12px; font-family: var(--font-display); font-size: 22px; letter-spacing: -0.01em; }
     .treat p { margin: 0 0 16px; color: var(--muted); font-size: 15.5px; line-height: 1.6; flex: 1; }
     .treat .best { font-size: 14px; color: var(--fg); padding-top: 14px; border-top: 1px solid var(--border); }
     .treat .best b { color: var(--accent-deep); font-weight: 600; }
+    /* responsive treatment grid */
+    .treat-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: var(--gap-lg); }
+    @media (max-width: 1024px) {
+      .treat-grid { grid-template-columns: repeat(2, 1fr); }
+      .treat-grid .treat:last-child:nth-child(odd) { grid-column: 1 / -1; max-width: 520px; justify-self: center; width: 100%; }
+    }
+    @media (max-width: 640px) {
+      .treat-grid { grid-template-columns: 1fr; max-width: 480px; margin-inline: auto; }
+      .treat-grid .treat:last-child:nth-child(odd) { max-width: none; }
+      .treat .media { aspect-ratio: 4 / 3; }
+    }
 
     /* ─── fit columns (is this for me / not for you) ────────────────── */
     .fit-grid { display: grid; grid-template-columns: 1fr 1fr; gap: clamp(24px, 4vw, 48px); align-items: start; }
@@ -318,22 +350,26 @@
     .fit-list li b { color: var(--fg); font-weight: 600; }
 
     /* ─── FAQ accordion ─────────────────────────────────────────────── */
-    .faq-item { border-top: 1px solid var(--border); }
-    .faq-item:last-child { border-bottom: 1px solid var(--border); }
-    .faq-q {
-      width: 100%; background: transparent; border: 0; text-align: left;
-      display: flex; align-items: center; justify-content: space-between; gap: 20px;
-      padding: 26px 4px; font-family: var(--font-display); font-size: clamp(19px, 2vw, 23px);
-      letter-spacing: -0.01em; color: var(--fg); line-height: 1.3;
-    }
-    .faq-icon { flex-shrink: 0; width: 26px; height: 26px; position: relative; }
-    .faq-icon::before, .faq-icon::after { content: ''; position: absolute; background: var(--accent-deep); transition: transform .25s ease, opacity .25s ease; }
-    .faq-icon::before { top: 12px; left: 3px; right: 3px; height: 2px; }
-    .faq-icon::after { left: 12px; top: 3px; bottom: 3px; width: 2px; }
-    .faq-item[open] .faq-icon::after { transform: scaleY(0); opacity: 0; }
-    .faq-a { overflow: hidden; max-height: 0; transition: max-height .35s ease; }
-    .faq-item[open] .faq-a { max-height: 600px; }
-    .faq-a-inner { padding: 0 4px 28px; color: var(--muted); font-size: 16px; line-height: 1.7; max-width: 70ch; }
+     .faq-item { border-top: 1px solid var(--border); transition: background-color .15s ease; }
+     .faq-item:last-child { border-bottom: 1px solid var(--border); }
+     .faq-item:hover { background-color: var(--accent-wash); }
+     .faq-q {
+       width: 100%; background: transparent; border: 0; text-align: left;
+       display: flex; align-items: center; justify-content: space-between; gap: 20px;
+       padding: 26px 4px; font-family: var(--font-display); font-size: clamp(19px, 2vw, 23px);
+       letter-spacing: -0.01em; color: var(--fg); line-height: 1.3; cursor: pointer;
+       transition: color .15s ease;
+     }
+     .faq-q:hover { color: var(--accent-deep); }
+     .faq-q:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+     .faq-icon { flex-shrink: 0; width: 26px; height: 26px; position: relative; }
+     .faq-icon::before, .faq-icon::after { content: ''; position: absolute; background: var(--accent-deep); transition: transform .25s ease, opacity .25s ease; }
+     .faq-icon::before { top: 12px; left: 3px; right: 3px; height: 2px; }
+     .faq-icon::after { left: 12px; top: 3px; bottom: 3px; width: 2px; }
+     .faq-item[open] .faq-icon::after { transform: scaleY(0); opacity: 0; }
+     .faq-a { overflow: hidden; max-height: 0; transition: max-height .35s cubic-bezier(0.4, 0, 0.2, 1); }
+     .faq-item[open] .faq-a { max-height: 800px; }
+     .faq-a-inner { padding: 0 4px 28px; color: var(--muted); font-size: 16px; line-height: 1.7; max-width: 70ch; }
     .faq-a-inner p { margin: 0 0 1em; }
     .faq-a-inner p:last-child { margin-bottom: 0; }
 
@@ -341,14 +377,16 @@
     .loc-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 14px; }
     @media (max-width: 760px) { .loc-grid { grid-template-columns: repeat(2, 1fr); } }
     @media (max-width: 440px) { .loc-grid { grid-template-columns: 1fr; } }
-    .loc-chip {
-      background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius);
-      padding: 20px 22px; display: flex; align-items: center; gap: 14px; transition: border-color .15s ease, background .15s ease, transform .15s ease;
-    }
-    .loc-chip:hover { border-color: var(--accent); transform: translateY(-2px); }
-    .loc-chip .loc-icon { font-size: 22px; }
-    .loc-chip strong { font-size: 17px; font-weight: 600; }
-    .loc-chip span { display: block; font-size: 13px; color: var(--muted); }
+     .loc-chip {
+       background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius);
+       padding: 20px 22px; display: flex; align-items: center; gap: 14px; cursor: pointer;
+       transition: border-color .15s ease, background .15s ease, transform .15s ease, box-shadow .15s ease;
+     }
+     .loc-chip:hover { border-color: var(--accent); transform: translateY(-2px); }
+     .loc-chip:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+     .loc-chip .loc-icon { font-size: 22px; }
+     .loc-chip strong { font-size: 17px; font-weight: 600; }
+     .loc-chip span { display: block; font-size: 13px; color: var(--muted); }
 
     /* ─── final CTA ─────────────────────────────────────────────────── */
     .finalcta { position: relative; isolation: isolate; color: #fff; overflow: hidden; border-radius: var(--radius-lg); }
@@ -393,12 +431,26 @@
       body { padding-bottom: 84px; }
     }
 
+    /* ─── disable sticky on mobile/tablet ──────────────────────────── */
+    @media (max-width: 1024px) {
+      [style*="position: sticky"] { position: static !important; }
+    }
+
     /* ─── fade-in motion ────────────────────────────────────────────── */
     .reveal { opacity: 0; transform: translateY(20px); transition: opacity .7s ease, transform .7s ease; }
     .reveal.in { opacity: 1; transform: none; }
-    @media (prefers-reduced-motion: reduce) {
-      .reveal { opacity: 1; transform: none; transition: none; }
-      html { scroll-behavior: auto; }
+      @media (prefers-reduced-motion: reduce) {
+        *, *::before, *::after { animation-duration: 0.01ms !important; animation-iteration-count: 1 !important; transition-duration: 0.01ms !important; }
+        html { scroll-behavior: auto; }
+        .reveal { opacity: 1; transform: none; transition: none; }
+        .btn:active { transform: none; }
+        .loc-chip:hover { transform: none; }
+        .btn-arrow:hover::after { transform: none; }
+      }
+
+    /* ─── remove sticky on tablet/mobile ─────────────────────────────── */
+    @media (max-width: 1024px) {
+      [style*="position:sticky"] { position: static !important; }
     }
   </style>
 </head>
@@ -451,10 +503,10 @@
           </div>
           <div class="hero-media reveal">
             <div class="media">
-              <img src="mq6w5gbb-imgi_24_Frame_524.jpg" alt="A Peachy provider reviewing a personalized treatment map with a smiling client in a warm studio room" loading="eager" />
+              <img src="mq6w5gbb-imgi_24_Frame_524.jpg" alt="A Peachy provider reviewing a personalized treatment map with a smiling client in a warm studio room" loading="eager">
             </div>
             <div class="hero-prod">
-              <img src="mq6w5ge5-imgi_39_641292313_18310691566285795_7385529726323158977_n.jpg" alt="Peachy mineral facial sunscreen bottle resting among fresh peaches" loading="lazy" />
+              <img src="mq6w5ge5-imgi_39_641292313_18310691566285795_7385529726323158977_n.jpg" alt="Peachy mineral facial sunscreen bottle resting among fresh peaches" loading="lazy">
             </div>
             <div class="hero-badge">
               <div class="stars">★★★★★</div>
@@ -482,9 +534,9 @@
     <section class="section hook" data-od-id="hook">
       <div class="container-narrow reveal">
         <p>Most people who book their first Botox appointment at Peachy say the same thing afterward:</p>
-        <p class="quietline">“I can&rsquo;t believe I waited so long.”</p>
-        <p>Not because the results were dramatic. Because they weren&rsquo;t. They looked like themselves. Just better. Fresher. Like they&rsquo;d slept eight hours every night for a month.</p>
-        <p class="small">And they knew exactly what they were paying before they ever sat in the chair. If you&rsquo;ve been quietly researching Botox for a while&nbsp;— worried about looking frozen, not sure what you actually need, not sure if it&rsquo;s worth it yet&nbsp;— this page was written for you.</p>
+        <p class="quietline">“I can’t believe I waited so long.”</p>
+        <p>Not because the results were dramatic. Because they weren’t. They looked like themselves. Just better. Fresher. Like they’d slept eight hours every night for a month.</p>
+        <p class="small">And they knew exactly what they were paying before they ever sat in the chair. If you’ve been quietly researching Botox for a while&nbsp;— worried about looking frozen, not sure what you actually need, not sure if it’s worth it yet&nbsp;— this page was written for you.</p>
       </div>
     </section>
 
@@ -494,37 +546,37 @@
         <div class="section-head reveal" style="margin-bottom:var(--gap-xl);">
           <p class="eyebrow">The honest part</p>
           <h2>The Botox concerns nobody talks about out loud</h2>
-          <p class="lead" style="margin-top:18px;">Somewhere between “I want to try this” and “I&rsquo;m ready to book,” a few very specific fears show up. Maybe you recognize some of them.</p>
+          <p class="lead" style="margin-top:18px;">Somewhere between “I want to try this” and “I’m ready to book,” a few very specific fears show up. Maybe you recognize some of them.</p>
         </div>
         <div class="grid-3">
           <div class="concern reveal">
-            <span class="mark">&ldquo;</span>
+            <span class="mark">“</span>
             <p class="q">What if I look frozen, stiff, or obvious?</p>
-            <p>Everyone seems to know someone who “had work done” and looks like a different person. That&rsquo;s not what you want. You want subtle. You want natural. You want people to say “you look great” — not “you look… different.”</p>
+            <p>Everyone seems to know someone who “had work done” and looks like a different person. That’s not what you want. You want subtle. You want natural. You want people to say “you look great” — not “you look… different.”</p>
           </div>
           <div class="concern reveal">
-            <span class="mark">&ldquo;</span>
+            <span class="mark">“</span>
             <p class="q">What if I get upsold into more than I need?</p>
-            <p>The per-unit pricing model at most clinics makes it nearly impossible to know your final bill until you&rsquo;re already in the chair. That&rsquo;s not a trust-building system. That&rsquo;s a pressure system.</p>
+            <p>The per-unit pricing model at most clinics makes it nearly impossible to know your final bill until you’re already in the chair. That’s not a trust-building system. That’s a pressure system.</p>
           </div>
           <div class="concern reveal">
-            <span class="mark">&ldquo;</span>
-            <p class="q">What if I don&rsquo;t know what I need — and they take advantage?</p>
-            <p>You&rsquo;re not a dermatologist. You shouldn&rsquo;t have to become one to get a treatment you feel good about. But without guidance, it&rsquo;s easy to wonder if you&rsquo;re being guided — or steered.</p>
+            <span class="mark">“</span>
+            <p class="q">What if I don’t know what I need — and they take advantage?</p>
+            <p>You’re not a dermatologist. You shouldn’t have to become one to get a treatment you feel good about. But without guidance, it’s easy to wonder if you’re being guided — or steered.</p>
           </div>
           <div class="concern reveal">
-            <span class="mark">&ldquo;</span>
-            <p class="q">What if I hate the result and can&rsquo;t fix it?</p>
-            <p>Botox isn&rsquo;t permanent, but three months of waiting for it to wear off isn&rsquo;t a comfortable outcome either.</p>
+            <span class="mark">“</span>
+            <p class="q">What if I hate the result and can’t fix it?</p>
+            <p>Botox isn’t permanent, but three months of waiting for it to wear off isn’t a comfortable outcome either.</p>
           </div>
           <div class="concern reveal">
-            <span class="mark">&ldquo;</span>
-            <p class="q">I&rsquo;m honestly scared of needles.</p>
+            <span class="mark">“</span>
+            <p class="q">I’m honestly scared of needles.</p>
             <p>This one is more common than you think. And it matters. It deserves a provider who moves at your pace and explains every step.</p>
           </div>
           <div class="concern reveal" style="background:var(--accent-wash); border-color:var(--accent);">
             <p class="q" style="color:var(--accent-deep);">These fears are legitimate.</p>
-            <p style="color:var(--fg);">They&rsquo;re also the exact fears that Peachy&rsquo;s entire model was built to eliminate. Keep reading and you&rsquo;ll see how.</p>
+            <p style="color:var(--fg);">They’re also the exact fears that Peachy’s entire model was built to eliminate. Keep reading and you’ll see how.</p>
           </div>
         </div>
       </div>
@@ -536,37 +588,37 @@
         <div class="section-head reveal" style="margin-bottom:var(--gap-xl);">
           <p class="eyebrow">Built specifically for this</p>
           <h2>Most med spas offer Botox as one of thirty services. We offer it as the thing we do.</h2>
-          <p class="lead" style="margin-top:18px;">That distinction matters — because focus produces better outcomes. When the entire system is designed around one category of treatment, every detail gets refined in ways generalist clinics simply can&rsquo;t match. Here&rsquo;s what that looks like in practice.</p>
+          <p class="lead" style="margin-top:18px;">That distinction matters — because focus produces better outcomes. When the entire system is designed around one category of treatment, every detail gets refined in ways generalist clinics simply can’t match. Here’s what that looks like in practice.</p>
         </div>
         <div class="grid-2">
           <div class="pillar reveal">
             <div class="pillar-mark" aria-hidden="true">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 1v22"/><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 1v22"></path><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path></svg>
             </div>
             <h3>Flat-fee pricing</h3>
-            <p>You know the price before you book. It doesn&rsquo;t change based on how many units your provider thinks you need in the moment. No surprises. No upsell pressure. No watching the bill climb.</p>
+            <p>You know the price before you book. It doesn’t change based on how many units your provider thinks you need in the moment. No surprises. No upsell pressure. No watching the bill climb.</p>
             <div class="price">Starting at $375. <span>Always.</span></div>
           </div>
           <div class="pillar reveal">
             <div class="pillar-mark" aria-hidden="true">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2a4 4 0 0 0-4 4v1a4 4 0 0 0 0 8 4 4 0 0 0 8 0 4 4 0 0 0 0-8V6a4 4 0 0 0-4-4Z"/><path d="M12 7v10"/></svg>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2a4 4 0 0 0-4 4v1a4 4 0 0 0 0 8 4 4 0 0 0 8 0 4 4 0 0 0 0-8V6a4 4 0 0 0-4-4Z"></path><path d="M12 7v10"></path></svg>
             </div>
             <h3>AI-guided treatment mapping</h3>
             <p>Before your provider injects anything, they create a personalized treatment map for your face — guided by AI precision that accounts for your specific anatomy, movement patterns, and goals. This is the mechanism behind “this is exactly what I wanted.”</p>
           </div>
           <div class="pillar reveal">
             <div class="pillar-mark" aria-hidden="true">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12a9 9 0 1 1-2.6-6.4"/><path d="M21 3v6h-6"/></svg>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12a9 9 0 1 1-2.6-6.4"></path><path d="M21 3v6h-6"></path></svg>
             </div>
             <h3>Complimentary 2-week dose adjustment</h3>
             <p>Two weeks after your treatment, Botox has fully settled — and you and your provider can see exactly how it looks. If anything needs a small adjustment, you come back and we take care of it. Included, at no charge. Our version of a real result guarantee.</p>
           </div>
           <div class="pillar reveal">
             <div class="pillar-mark" aria-hidden="true">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 11a9 9 0 0 1 18 0v4a3 3 0 0 1-3 3h-1"/><path d="M3 15v-4"/><rect x="3" y="11" width="4" height="7" rx="1.5"/><rect x="17" y="11" width="4" height="7" rx="1.5"/></svg>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 11a9 9 0 0 1 18 0v4a3 3 0 0 1-3 3h-1"></path><path d="M3 15v-4"></path><rect x="3" y="11" width="4" height="7" rx="1.5"></rect><rect x="17" y="11" width="4" height="7" rx="1.5"></rect></svg>
             </div>
             <h3>Providers who lead with listening</h3>
-            <p>No pressure. No sales scripts. No steering you toward treatments you didn&rsquo;t come in for. Our providers explain what they see, walk you through what they recommend, and let you make the call — at every step.</p>
+            <p>No pressure. No sales scripts. No steering you toward treatments you didn’t come in for. Our providers explain what they see, walk you through what they recommend, and let you make the call — at every step.</p>
           </div>
         </div>
       </div>
@@ -579,9 +631,9 @@
           <div class="reveal" style="position:sticky; top:96px;">
             <p class="eyebrow">Step by step</p>
             <h2>What your first Peachy visit actually looks like</h2>
-            <p class="lead" style="margin:18px 0 28px;">The whole thing is more straightforward than you might expect. Here&rsquo;s the high-level view.</p>
+            <p class="lead" style="margin:18px 0 28px;">The whole thing is more straightforward than you might expect. Here’s the high-level view.</p>
             <div class="media media-wide">
-              <img src="mq6w5g8o-imgi_16_Screenshot_2025-04-08_at_4.45.00_PM.png" alt="A relaxed Peachy client reclined in the treatment chair with the provider's mapping marks visible on her face" loading="lazy" />
+              <img src="mq6w5g8o-imgi_16_Screenshot_2025-04-08_at_4.45.00_PM.png" alt="A relaxed Peachy client reclined in the treatment chair with the provider's mapping marks visible on her face" loading="lazy">
             </div>
           </div>
           <div>
@@ -589,35 +641,35 @@
               <div class="step-num num">01</div>
               <div class="step-body">
                 <h3>Book your appointment</h3>
-                <p>Choose your nearest location and a time that works for you. First-timers can book a free consultation to talk through options before committing — or go straight to treatment if they&rsquo;re ready.</p>
+                <p>Choose your nearest location and a time that works for you. First-timers can book a free consultation to talk through options before committing — or go straight to treatment if they’re ready.</p>
               </div>
             </div>
             <div class="step-row reveal">
               <div class="step-num num">02</div>
               <div class="step-body">
                 <h3>Get your personalized treatment map</h3>
-                <p>Your provider sits down with you — not at you. They listen to what you&rsquo;re hoping to achieve, assess your facial anatomy, and create an AI-guided plan tailored to your face. You&rsquo;ll know exactly what&rsquo;s being treated and why before anything happens.</p>
+                <p>Your provider sits down with you — not at you. They listen to what you’re hoping to achieve, assess your facial anatomy, and create an AI-guided plan tailored to your face. You’ll know exactly what’s being treated and why before anything happens.</p>
               </div>
             </div>
             <div class="step-row reveal">
               <div class="step-num num">03</div>
               <div class="step-body">
                 <h3>Treatment (faster than you think)</h3>
-                <p>Most treatments take 15&ndash;30 minutes. Your provider walks you through what they&rsquo;re doing in real time. Discomfort is minimal — most clients describe it as a quick pinch, if anything.</p>
+                <p>Most treatments take 15–30 minutes. Your provider walks you through what they’re doing in real time. Discomfort is minimal — most clients describe it as a quick pinch, if anything.</p>
               </div>
             </div>
             <div class="step-row reveal">
               <div class="step-num num">04</div>
               <div class="step-body">
                 <h3>Your two-week check-in</h3>
-                <p>Botox takes about two weeks to fully settle. That&rsquo;s when you&rsquo;ll see your full result. If anything looks uneven or needs a small tweak, come back and we&rsquo;ll handle it — included, no additional charge.</p>
+                <p>Botox takes about two weeks to fully settle. That’s when you’ll see your full result. If anything looks uneven or needs a small tweak, come back and we’ll handle it — included, no additional charge.</p>
               </div>
             </div>
             <div class="step-row reveal">
               <div class="step-num num">05</div>
               <div class="step-body">
                 <h3>Maintain (on your schedule)</h3>
-                <p>Most clients rebook every 3&ndash;4 months to maintain their results. When you&rsquo;re ready, rebooking takes about 90 seconds.</p>
+                <p>Most clients rebook every 3–4 months to maintain their results. When you’re ready, rebooking takes about 90 seconds.</p>
               </div>
             </div>
             <div class="reveal" style="margin-top:32px;">
@@ -633,7 +685,7 @@
       <div class="container">
         <div class="section-head reveal" style="margin-bottom:var(--gap-xl);">
           <p class="eyebrow">What clients actually say</p>
-          <h2>We&rsquo;re not going to show you our most dramatic before-and-after. We&rsquo;re going to show you what people say.</h2>
+          <h2>We’re not going to show you our most dramatic before-and-after. We’re going to show you what people say.</h2>
         </div>
 
         <p class="cluster-label reveal">First-timer experience</p>
@@ -645,22 +697,22 @@
           </div>
           <div class="testi reveal">
             <div class="stars">★★★★★</div>
-            <blockquote>“I&rsquo;ve been wanting to try Botox for a while but was scared of being upsold or talked into more than I needed. The flat pricing model was the reason I booked. The experience is what made me come back.”</blockquote>
+            <blockquote>“I’ve been wanting to try Botox for a while but was scared of being upsold or talked into more than I needed. The flat pricing model was the reason I booked. The experience is what made me come back.”</blockquote>
             <cite>— Priya, Chicago IL</cite>
           </div>
         </div>
 
-        <div class="grid-3" style="margin-bottom:var(--gap-xl);">
+        <div class="ba-grid" style="margin-bottom:var(--gap-xl);">
           <div class="ba-card reveal">
-            <div class="media"><img src="mq6w5gbq-imgi_25_683564975_1430311365564848_5871115645455070365_n.jpg" alt="Before and after preventative wrinkle treatment — smoother, more rested forehead" loading="lazy" /></div>
+            <div class="media"><img src="mq6w5gbq-imgi_25_683564975_1430311365564848_5871115645455070365_n.jpg" alt="Before and after preventative wrinkle treatment — smoother, more rested forehead" loading="lazy"></div>
             <div class="ba-cap"><span>Preventative wrinkle</span><span class="meta">Before · After</span></div>
           </div>
           <div class="ba-card reveal">
-            <div class="media"><img src="mq6w5gdr-imgi_37_640528635_18311505157285795_85935472641624163_n.jpg" alt="Before and after masseter treatment — a softer, more refined lower-face profile" loading="lazy" /></div>
+            <div class="media"><img src="mq6w5gdr-imgi_37_640528635_18311505157285795_85935472641624163_n.jpg" alt="Before and after masseter treatment — a softer, more refined lower-face profile" loading="lazy"></div>
             <div class="ba-cap"><span>Masseter</span><span class="meta">Before · After</span></div>
           </div>
           <div class="ba-card reveal">
-            <div class="media"><img src="mq6w5gdi-imgi_33_653650650_18313445467285795_4572063027687696186_n.jpg" alt="Before and after natural-looking results — visibly smoother yet still herself" loading="lazy" /></div>
+            <div class="media"><img src="mq6w5gdi-imgi_33_653650650_18313445467285795_4572063027687696186_n.jpg" alt="Before and after natural-looking results — visibly smoother yet still herself" loading="lazy"></div>
             <div class="ba-cap"><span>Natural results</span><span class="meta">Before · After</span></div>
           </div>
         </div>
@@ -669,12 +721,12 @@
         <div class="grid-3">
           <div class="testi reveal">
             <div class="stars">★★★★★</div>
-            <blockquote>“I was worried I&rsquo;d look frozen. I don&rsquo;t look frozen. I look like me — but like I&rsquo;ve been sleeping well and drinking water consistently, which I haven&rsquo;t been.”</blockquote>
+            <blockquote>“I was worried I’d look frozen. I don’t look frozen. I look like me — but like I’ve been sleeping well and drinking water consistently, which I haven’t been.”</blockquote>
             <cite>— Hannah, Washington DC</cite>
           </div>
           <div class="testi reveal">
             <div class="stars">★★★★★</div>
-            <blockquote>“My coworkers asked if I&rsquo;d changed my skincare routine. Nobody guessed. That was exactly the goal.”</blockquote>
+            <blockquote>“My coworkers asked if I’d changed my skincare routine. Nobody guessed. That was exactly the goal.”</blockquote>
             <cite>— Renee, Austin TX</cite>
           </div>
           <div class="testi reveal">
@@ -701,8 +753,8 @@
         <div class="grid-2" style="align-items:start; gap:clamp(32px,5vw,72px);">
           <div class="reveal" style="position:sticky; top:96px;">
             <p class="eyebrow">No tiers, no add-ons</p>
-            <h2>What&rsquo;s included in every Peachy appointment</h2>
-            <p class="lead" style="margin:18px 0 0;">There&rsquo;s no “basic package” and “premium package” here. Every treatment includes all of it.</p>
+            <h2>What’s included in every Peachy appointment</h2>
+            <p class="lead" style="margin:18px 0 0;">There’s no “basic package” and “premium package” here. Every treatment includes all of it.</p>
             <div class="price-callout reveal" style="margin-top:32px;">
               <p class="big">Starting at <span>$375</span></p>
               <p class="sub">Flat fee. The price you see is the price you pay.</p>
@@ -717,8 +769,8 @@
               <span class="incl-check" aria-hidden="true">✓</span>
               <div>
                 <h3>Personalized treatment consultation</h3>
-                <p>Your provider assesses your specific anatomy and goals. This isn&rsquo;t a checkbox — it&rsquo;s the foundation of every result we produce.</p>
-                <p class="incl-means"><strong>What this means for you:</strong> You&rsquo;re not getting a generic treatment. You&rsquo;re getting a plan designed for your face.</p>
+                <p>Your provider assesses your specific anatomy and goals. This isn’t a checkbox — it’s the foundation of every result we produce.</p>
+                <p class="incl-means"><strong>What this means for you:</strong> You’re not getting a generic treatment. You’re getting a plan designed for your face.</p>
               </div>
             </div>
             <div class="incl-row reveal">
@@ -733,8 +785,8 @@
               <span class="incl-check" aria-hidden="true">✓</span>
               <div>
                 <h3>Expert provider care</h3>
-                <p>Every Peachy injector is experienced, trained to Peachy&rsquo;s standards, and focused on natural outcomes — not volume or upsell targets.</p>
-                <p class="incl-means"><strong>What this means for you:</strong> You&rsquo;re being treated by someone whose measure of success is your results, not your bill.</p>
+                <p>Every Peachy injector is experienced, trained to Peachy’s standards, and focused on natural outcomes — not volume or upsell targets.</p>
+                <p class="incl-means"><strong>What this means for you:</strong> You’re being treated by someone whose measure of success is your results, not your bill.</p>
               </div>
             </div>
             <div class="incl-row reveal">
@@ -750,7 +802,7 @@
               <div>
                 <h3>Complimentary 2-week dose adjustment</h3>
                 <p>Included in every treatment. If your results need a small refinement at the two-week mark, come back. No charge. No awkwardness.</p>
-                <p class="incl-means"><strong>What this means for you:</strong> You&rsquo;re not hoping it turns out right. You have a built-in safety net if it doesn&rsquo;t.</p>
+                <p class="incl-means"><strong>What this means for you:</strong> You’re not hoping it turns out right. You have a built-in safety net if it doesn’t.</p>
               </div>
             </div>
           </div>
@@ -763,23 +815,23 @@
       <div class="container">
         <div class="about-grid">
           <div class="about-media reveal">
-            <div class="media"><img src="mq6w5gbu-imgi_30_670487980_18318122590285795_4728816373093003807_n.jpg" alt="A Peachy provider and a relaxed client in a treatment room" loading="lazy" /></div>
-            <div class="media"><img src="mq6w5gb2-imgi_22_Mashable_ca4b4601-f735-473d-bba9-478b9593e040.jpg" alt="The bright, minimal Peachy studio reception with the PEACHY wall mark" loading="lazy" /></div>
-            <div class="media"><img src="mq6w5g5n-imgi_13_forbes_4c60fb1c-cd37-4823-8c7f-7e9b1fdb7019.jpg" alt="A Peachy storefront with the illuminated PEACHY sign" loading="lazy" /></div>
+            <div class="media"><img src="mq6w5gbu-imgi_30_670487980_18318122590285795_4728816373093003807_n.jpg" alt="A Peachy provider and a relaxed client in a treatment room" loading="lazy"></div>
+            <div class="media"><img src="mq6w5gb2-imgi_22_Mashable_ca4b4601-f735-473d-bba9-478b9593e040.jpg" alt="The bright, minimal Peachy studio reception with the PEACHY wall mark" loading="lazy"></div>
+            <div class="media"><img src="mq6w5g5n-imgi_13_forbes_4c60fb1c-cd37-4823-8c7f-7e9b1fdb7019.jpg" alt="A Peachy storefront with the illuminated PEACHY sign" loading="lazy"></div>
           </div>
           <div class="about-copy reveal">
             <p class="eyebrow">Why a dedicated studio changes everything</p>
-            <p class="fine">Here&rsquo;s the honest truth about most Botox experiences: they&rsquo;re fine.</p>
-            <p>You book at a general med spa. The injector is competent. The result is okay. You&rsquo;re not sure if you paid too much. You&rsquo;re not sure when to come back. There was no follow-up about your results.</p>
-            <p><strong>Fine isn&rsquo;t what Peachy was built to deliver.</strong> A service this personal — one that affects how you look and feel every day — deserves more than “fine.” It deserves a system. A standard. A studio designed around one thing, done exceptionally well.</p>
-            <p>Every provider, every process, and every technology decision has been made with one question in mind: how do we produce the most natural, precise, consistently good result for this specific person? We&rsquo;ve refined that approach across 15 locations and hundreds of thousands of client visits. The reviews are what they are because the results are — not because we&rsquo;re good at marketing.</p>
+            <p class="fine">Here’s the honest truth about most Botox experiences: they’re fine.</p>
+            <p>You book at a general med spa. The injector is competent. The result is okay. You’re not sure if you paid too much. You’re not sure when to come back. There was no follow-up about your results.</p>
+            <p><strong>Fine isn’t what Peachy was built to deliver.</strong> A service this personal — one that affects how you look and feel every day — deserves more than “fine.” It deserves a system. A standard. A studio designed around one thing, done exceptionally well.</p>
+            <p>Every provider, every process, and every technology decision has been made with one question in mind: how do we produce the most natural, precise, consistently good result for this specific person? We’ve refined that approach across 15 locations and hundreds of thousands of client visits. The reviews are what they are because the results are — not because we’re good at marketing.</p>
             <div class="founders">
               <div class="founder">
-                <img src="mq6w5g6a-imgi_14_jessica.jpg" alt="Jessica, Peachy provider" loading="lazy" />
+                <img src="mq6w5g6a-imgi_14_jessica.jpg" alt="Jessica, Peachy provider" loading="lazy">
                 <div><strong>Jessica</strong><span>Lead Provider</span></div>
               </div>
               <div class="founder">
-                <img src="mq6w5g52-imgi_11_brooke.jpg" alt="Brooke, Peachy provider" loading="lazy" />
+                <img src="mq6w5g52-imgi_11_brooke.jpg" alt="Brooke, Peachy provider" loading="lazy">
                 <div><strong>Brooke</strong><span>Lead Provider</span></div>
               </div>
             </div>
@@ -795,34 +847,34 @@
           <p class="eyebrow">What we treat</p>
           <h2>Peachy specializes in three core treatments</h2>
         </div>
-        <div class="grid-3">
+        <div class="treat-grid">
           <div class="treat reveal">
-            <div class="media"><img src="mq6w5gd8-imgi_31_670392683_18317734369285795_1821146078010610806_n.jpg" alt="Before and after preventative wrinkle treatment results" loading="lazy" /></div>
+            <div class="media"><img src="mq6w5gd8-imgi_31_670392683_18317734369285795_1821146078010610806_n.jpg" alt="Before and after preventative wrinkle treatment results" loading="lazy"></div>
             <div class="treat-body">
               <h3>Preventative Botox / Wrinkle</h3>
-              <p>Our most common treatment. Targets forehead lines, crow&rsquo;s feet, and the “11s” between the brows. The earlier you start, the less you&rsquo;ll need long-term to maintain smooth, natural-looking results.</p>
+              <p>Our most common treatment. Targets forehead lines, crow's feet, and the "11s" between the brows. The earlier you start, the less you'll need long-term to maintain smooth, natural-looking results.</p>
               <p class="best"><b>Best for:</b> Anyone noticing early lines or wanting to stay ahead of them.</p>
             </div>
           </div>
           <div class="treat reveal">
-            <div class="media"><img src="mq6w5gdr-imgi_37_640528635_18311505157285795_85935472641624163_n.jpg" alt="Before and after masseter treatment results" loading="lazy" /></div>
+            <div class="media"><img src="mq6w5gdr-imgi_37_640528635_18311505157285795_85935472641624163_n.jpg" alt="Before and after masseter treatment results" loading="lazy"></div>
             <div class="treat-body">
               <h3>Masseter Treatment</h3>
               <p>Botox placed in the jaw muscles reduces the appearance of clenching and grinding effects while softening the lower face for a more refined profile.</p>
               <p class="best"><b>Best for:</b> Jaw tension, TMJ discomfort, or a slimmer facial silhouette.</p>
             </div>
           </div>
-          <div class="treat reveal">
-            <div class="media"><img src="mq6w5g8o-imgi_16_Screenshot_2025-04-08_at_4.45.00_PM.png" alt="A Peachy client receiving a Botox facial treatment" loading="lazy" /></div>
-            <div class="treat-body">
-              <h3>Botox Facial with Aquagold</h3>
-              <p>A micro-infusion facial that delivers a customized blend of Botox and skin-improving actives into the surface of the skin for glow, pore-minimizing, texture-refining results.</p>
-              <p class="best"><b>Best for:</b> Skin texture, glow, and pore appearance — without a clinical feel.</p>
-            </div>
-          </div>
-        </div>
+           <div class="treat reveal">
+             <div class="media"><img src="mq6w5g8o-imgi_16_Screenshot_2025-04-08_at_4.45.00_PM.png" alt="A Peachy client receiving a Botox facial treatment" loading="lazy"></div>
+             <div class="treat-body">
+               <h3>Botox Facial with Aquagold</h3>
+               <p>A micro-infusion facial that delivers a customized blend of Botox and skin-improving actives into the surface of the skin for glow, pore-minimizing, texture-refining results.</p>
+               <p class="best"><b>Best for:</b> Skin texture, glow, and pore appearance — without a clinical feel.</p>
+             </div>
+           </div>
+         </div>
         <div class="reveal" style="text-align:center; margin-top:var(--gap-xl);">
-          <p class="lead" style="margin:0 auto 22px; text-align:center;">Not sure which is right for you? Start with a free consultation and your provider will walk you through what they&rsquo;d recommend based on your specific goals.</p>
+          <p class="lead" style="margin:0 auto 22px; text-align:center;">Not sure which is right for you? Start with a free consultation and your provider will walk you through what they’d recommend based on your specific goals.</p>
           <a href="#final" class="btn btn-primary btn-arrow">Book a free consultation</a>
         </div>
       </div>
@@ -833,26 +885,26 @@
       <div class="container">
         <div class="fit-grid">
           <div class="fit-card reveal">
-            <p class="eyebrow">This is probably for you if&hellip;</p>
+            <p class="eyebrow">This is probably for you if…</p>
             <h2 style="font-size:clamp(26px,3vw,38px);">You might recognize yourself here.</h2>
             <ul class="fit-list yes">
-              <li><span class="ic">✓</span><span>You&rsquo;ve started noticing lines in photos — forehead, between the brows, or around the eyes — that weren&rsquo;t as visible a year or two ago.</span></li>
-              <li><span class="ic">✓</span><span>You&rsquo;ve thought about Botox before but felt hesitant about the “frozen look,” or worried you&rsquo;d be pressured into more than you wanted.</span></li>
+              <li><span class="ic">✓</span><span>You’ve started noticing lines in photos — forehead, between the brows, or around the eyes — that weren’t as visible a year or two ago.</span></li>
+              <li><span class="ic">✓</span><span>You’ve thought about Botox before but felt hesitant about the “frozen look,” or worried you’d be pressured into more than you wanted.</span></li>
               <li><span class="ic">✓</span><span>You want to be proactive about your skin before lines deepen — not reactive after they already have.</span></li>
-              <li><span class="ic">✓</span><span>You&rsquo;ve tried researching clinics and felt overwhelmed by per-unit pricing, unclear total costs, or reviews that were hard to evaluate.</span></li>
+              <li><span class="ic">✓</span><span>You’ve tried researching clinics and felt overwhelmed by per-unit pricing, unclear total costs, or reviews that were hard to evaluate.</span></li>
               <li><span class="ic">✓</span><span>You want a fast, professional experience that fits your actual schedule — not a lengthy, high-pressure consultation that ends in a treatment menu.</span></li>
               <li><span class="ic">✓</span><span>A friend who already does this keeps saying “just try it” — and part of you is finally ready to listen.</span></li>
             </ul>
-            <p style="margin-top:24px; font-family:var(--font-display); font-size:20px; color:var(--accent-deep);">If any of that resonates, you&rsquo;re in the right place.</p>
+            <p style="margin-top:24px; font-family:var(--font-display); font-size:20px; color:var(--accent-deep);">If any of that resonates, you’re in the right place.</p>
           </div>
           <div class="fit-card no reveal">
-            <p class="eyebrow" style="color:var(--muted);">Probably not the right fit if&hellip;</p>
-            <h2 style="font-size:clamp(26px,3vw,38px);">Peachy isn&rsquo;t for everyone. Being honest about that is how we&rsquo;ve earned trust.</h2>
+            <p class="eyebrow" style="color:var(--muted);">Probably not the right fit if…</p>
+            <h2 style="font-size:clamp(26px,3vw,38px);">Peachy isn’t for everyone. Being honest about that is how we’ve earned trust.</h2>
             <ul class="fit-list no">
-              <li><span class="ic">✗</span><span>You&rsquo;re looking for <b>dramatic transformation</b> or significant volume changes. We specialize in natural-looking, preventative Botox. For fillers or more extensive work, we&rsquo;d point you to a specialist.</span></li>
-              <li><span class="ic">✗</span><span>You want <b>the lowest possible price</b> above everything else. Flat-fee isn&rsquo;t always the cheapest for minimal treatment — it&rsquo;s the most predictable and the most honest.</span></li>
-              <li><span class="ic">✗</span><span>You&rsquo;re hoping for a <b>one-time result that lasts years.</b> Botox is a maintenance treatment — results typically last 3&ndash;4 months. The value is in the routine.</span></li>
-              <li><span class="ic">✗</span><span>You want a <b>broad menu of services</b> under one roof. We specialize. That focus is what makes us good — but it means we may not offer every service you&rsquo;re interested in.</span></li>
+              <li><span class="ic">✗</span><span>You’re looking for <b>dramatic transformation</b> or significant volume changes. We specialize in natural-looking, preventative Botox. For fillers or more extensive work, we’d point you to a specialist.</span></li>
+              <li><span class="ic">✗</span><span>You want <b>the lowest possible price</b> above everything else. Flat-fee isn’t always the cheapest for minimal treatment — it’s the most predictable and the most honest.</span></li>
+              <li><span class="ic">✗</span><span>You’re hoping for a <b>one-time result that lasts years.</b> Botox is a maintenance treatment — results typically last 3–4 months. The value is in the routine.</span></li>
+              <li><span class="ic">✗</span><span>You want a <b>broad menu of services</b> under one roof. We specialize. That focus is what makes us good — but it means we may not offer every service you’re interested in.</span></li>
             </ul>
           </div>
         </div>
@@ -867,37 +919,37 @@
           <h2>Questions people actually ask</h2>
         </div>
         <div class="reveal">
-          <details class="faq-item" open>
+          <details class="faq-item" open="">
             <summary class="faq-q">Will I look frozen or unnatural?<span class="faq-icon" aria-hidden="true"></span></summary>
             <div class="faq-a"><div class="faq-a-inner">
-              <p>The short answer: not with good technique, appropriate dosing, and a provider who&rsquo;s listening to what you actually want.</p>
-              <p>“Frozen” results are almost always the product of too many units, placed without attention to how your specific face moves. Peachy&rsquo;s AI-guided mapping and natural-result focus exist specifically to prevent this. Our most common review phrase is “natural-looking.” That&rsquo;s not a tagline — it&rsquo;s what people say when describing their results.</p>
+              <p>The short answer: not with good technique, appropriate dosing, and a provider who’s listening to what you actually want.</p>
+              <p>“Frozen” results are almost always the product of too many units, placed without attention to how your specific face moves. Peachy’s AI-guided mapping and natural-result focus exist specifically to prevent this. Our most common review phrase is “natural-looking.” That’s not a tagline — it’s what people say when describing their results.</p>
             </div></div>
           </details>
           <details class="faq-item">
             <summary class="faq-q">What does “flat-fee pricing” actually mean?<span class="faq-icon" aria-hidden="true"></span></summary>
             <div class="faq-a"><div class="faq-a-inner">
-              <p>It means you pay one price for your treatment — not a per-unit price that varies based on how much product your provider decides you need in the moment. Your total is visible before you book. It doesn&rsquo;t change when you arrive.</p>
+              <p>It means you pay one price for your treatment — not a per-unit price that varies based on how much product your provider decides you need in the moment. Your total is visible before you book. It doesn’t change when you arrive.</p>
               <p>The flat-fee model removes the financial guesswork that makes most people anxious about Botox pricing — and the structural upsell incentive that creates distrust at per-unit clinics.</p>
             </div></div>
           </details>
           <details class="faq-item">
-            <summary class="faq-q">What if I don&rsquo;t like my results?<span class="faq-icon" aria-hidden="true"></span></summary>
+            <summary class="faq-q">What if I don’t like my results?<span class="faq-icon" aria-hidden="true"></span></summary>
             <div class="faq-a"><div class="faq-a-inner">
-              <p>Two weeks after your treatment, Botox has fully settled. That&rsquo;s your check-in window. If anything looks slightly uneven or needs a small adjustment, come back and we&rsquo;ll take care of it. This is included in every treatment — not as a policy exception, but as a standard part of how Peachy operates.</p>
+              <p>Two weeks after your treatment, Botox has fully settled. That’s your check-in window. If anything looks slightly uneven or needs a small adjustment, come back and we’ll take care of it. This is included in every treatment — not as a policy exception, but as a standard part of how Peachy operates.</p>
             </div></div>
           </details>
           <details class="faq-item">
-            <summary class="faq-q">I&rsquo;m scared of needles. Will it hurt?<span class="faq-icon" aria-hidden="true"></span></summary>
+            <summary class="faq-q">I’m scared of needles. Will it hurt?<span class="faq-icon" aria-hidden="true"></span></summary>
             <div class="faq-a"><div class="faq-a-inner">
-              <p>This is one of the most common things people tell us — and one of the most common things they&rsquo;re surprised by afterward. Most clients describe the sensation as a quick, small pinch. Some feel almost nothing.</p>
-              <p>Your provider will explain what they&rsquo;re doing in real time and move at a pace you&rsquo;re comfortable with. We can&rsquo;t promise it&rsquo;s completely painless for everyone, but the experience is far gentler than most first-timers expect.</p>
+              <p>This is one of the most common things people tell us — and one of the most common things they’re surprised by afterward. Most clients describe the sensation as a quick, small pinch. Some feel almost nothing.</p>
+              <p>Your provider will explain what they’re doing in real time and move at a pace you’re comfortable with. We can’t promise it’s completely painless for everyone, but the experience is far gentler than most first-timers expect.</p>
             </div></div>
           </details>
           <details class="faq-item">
             <summary class="faq-q">How long does a treatment take?<span class="faq-icon" aria-hidden="true"></span></summary>
             <div class="faq-a"><div class="faq-a-inner">
-              <p>Most treatments take 15&ndash;30 minutes, including your personalized mapping. Many clients book on a lunch break. Rebooking, once you&rsquo;re a member, takes about 90 seconds.</p>
+              <p>Most treatments take 15–30 minutes, including your personalized mapping. Many clients book on a lunch break. Rebooking, once you’re a member, takes about 90 seconds.</p>
             </div></div>
           </details>
         </div>
@@ -930,11 +982,11 @@
     <section class="section" id="final" data-od-id="finalcta">
       <div class="container">
         <div class="finalcta reveal">
-          <div class="media"><img src="mq6w5gb2-imgi_22_Mashable_ca4b4601-f735-473d-bba9-478b9593e040.jpg" alt="The bright Peachy studio interior" loading="lazy" /></div>
+          <div class="media"><img src="mq6w5gb2-imgi_22_Mashable_ca4b4601-f735-473d-bba9-478b9593e040.jpg" alt="The bright Peachy studio interior" loading="lazy"></div>
           <div class="finalcta-inner">
             <p class="pill pill-dot" style="background:color-mix(in oklch, var(--accent) 22%, transparent); color:#fff;">No obligation · No pressure</p>
             <h2 style="margin-top:18px;">Ready to look like the most rested version of yourself?</h2>
-            <p>Your first visit doesn&rsquo;t have to be a treatment. Start with a free consultation — your provider walks you through what they&rsquo;d recommend for your face and goals. Just an honest conversation about what Botox can and can&rsquo;t do for you. If you&rsquo;re ready to book treatment directly, that&rsquo;s right here too. You already know the price. The only thing left is to pick a time.</p>
+            <p>Your first visit doesn’t have to be a treatment. Start with a free consultation — your provider walks you through what they’d recommend for your face and goals. Just an honest conversation about what Botox can and can’t do for you. If you’re ready to book treatment directly, that’s right here too. You already know the price. The only thing left is to pick a time.</p>
             <div class="cta-pair">
               <a href="#locations" class="btn btn-peach btn-arrow">Book my free consultation</a>
               <a href="#locations" class="btn btn-secondary">Skip to treatment booking</a>
@@ -990,7 +1042,7 @@
         <span class="meta">© Peachy 2026 · All rights reserved</span>
         <span class="meta">Flat-fee pricing · AI-guided mapping · 2-week adjustment included</span>
       </div>
-      <p class="legal">Botox® is a registered trademark of its respective owner. Individual results vary. Botox is a maintenance treatment; results typically last 3&ndash;4 months. This page is for informational purposes and is not medical advice.</p>
+      <p class="legal">Botox® is a registered trademark of its respective owner. Individual results vary. Botox is a maintenance treatment; results typically last 3–4 months. This page is for informational purposes and is not medical advice.</p>
     </div>
   </footer>
 
@@ -1027,5 +1079,6 @@
       reveals.forEach((el) => el.classList.add('in'));
     }
   </script>
-</body>
-</html>
+
+
+</body></html>
