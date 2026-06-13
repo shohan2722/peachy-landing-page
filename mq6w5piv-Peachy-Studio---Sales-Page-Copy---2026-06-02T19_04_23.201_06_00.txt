@@ -1,0 +1,776 @@
+﻿Sales Page Copy:
+Peachy Studio: High-Converting Sales Page System
+Complete Conversion Architecture for the First-Timer & Preventative Professional Funnel Path
+
+
+SECTION 1: STRATEGIC FOUNDATION
+Power of One Analysis
+The One Problem:The fear of looking frozen — not the fear of Botox itself. Your audience has already crossed the "should I do this?" threshold. What's stopping them is the terror of visible, obvious, obviously done results that announce themselves in every Zoom call and family photo.
+
+
+The One Desire:To look like a better, more rested version of themselves — not a different person. They want to be the person whose coworkers say "you look great lately" without anyone guessing why.
+
+
+The One Method:A specialized Botox studio (not a general med spa) that uses precise AI-mapped treatment planning and flat-fee pricing — so there are no guessing games about how they'll look or how much they'll pay.
+
+
+The One Promise:Natural-looking results at a predictable price, with a complimentary 2-week adjustment if anything needs fine-tuning — so the only risk they're taking is looking more like themselves.
+
+
+
+
+Customer Avatar Integration
+Primary Avatar: The Preventative ProfessionalShe's 28-38, urban, and has been quietly noticing things in photos that she didn't used to notice. She's not chasing a dramatic transformation. She's not trying to reverse a decade. She just wants to stop the clock quietly — and she'd like to do it without walking into a clinic that makes her feel pressured, poked, or priced-gouged. She has disposable income and will spend confidently on things that feel worth it — but she will research heavily before she commits.
+
+
+Pain Psychology (What She's Actually Afraid Of):
+* Looking frozen in a meeting and having everyone know
+* Not knowing how many units she needs and being upsold into excess
+* Walking out looking different instead of refreshed
+* Feeling like she was talked into something by someone with a commission
+* Paying more than she expected when the bill arrives
+
+
+Desire Psychology (What She's Actually Buying):
+* The confidence of looking like she just got back from a great vacation — perpetually
+* A fast, streamlined experience that fits her schedule
+* The feeling of being guided by an expert, not sold by a salesperson
+* A treatment routine she can maintain without drama or guesswork
+* Price certainty before she ever sits in the chair
+
+
+Why Psychology (Why She Hasn't Booked Yet):She doesn't have a no — she has a not yet. The hesitation is almost entirely rooted in risk perception. If you remove the risk of bad results and the risk of price surprises, her decision becomes easy. That's the entire conversion architecture.
+
+
+
+
+Messaging Hierarchy
+
+
+
+
+Tone of Voice Calibration
+Voice Attributes: Warm but expert. Confident but not clinical. Conversational without being casual. The tone of a knowledgeable friend who happens to be a medical professional — someone who will tell you the truth, walk you through what to expect, and never make you feel stupid for asking questions.
+
+
+What to Avoid: Fear-mongering, hype language, "amazing transformation" phrasing, luxury-spa performativeness, clinical coldness, sales pressure of any kind.
+
+
+The Anti-Selling Test: Every section should pass this check — does this help the reader understand, or does it push the reader to buy? Information creates trust. Trust creates bookings.
+
+
+
+
+SECTION 2: HERO SECTION MASTERY
+Primary Sales Page — First-Timer Path
+(Page URL logic: peachy.com/first-time-botox or city variant)
+
+
+
+
+HERO SECTION
+Primary Headline (3-Second Clarity Test ✓)
+Botox That Looks Like You — Just More Rested.
+
+
+3-Second Clarity Test Analysis:
+* What is it? Botox treatment
+* Who is it for? People who want natural-looking results
+* How will it make life better? More rested, refreshed version of themselves
+* What action to take? (Answered by subheadline and CTA below)
+
+
+Why this headline works: It leads with the desired outcome ("more rested"), not the treatment. It speaks directly to the #1 fear in the audience's psychology — looking different, not better. It passes the "Is this for me?" test in under three seconds for the primary avatar.
+
+
+
+
+9 Headline Variations
+1. Problem/Solution Focused
+Tired of Wondering "Will I Look Frozen?" Here's How Peachy Does Botox Differently.
+Psychology: Mirrors the exact objection verbatim from VOC data, then immediately pivots to curiosity. The word "differently" opens a loop the reader must close.
+
+
+
+
+2. Benefit-Driven
+Natural-Looking Botox. Flat-Fee Pricing. Zero Guesswork.
+Psychology: Stacks three distinct benefits in a scannable three-beat rhythm. Each beat removes a separate fear. Works particularly well as a subheadline or ad headline.
+
+
+
+
+3. Curiosity-Based
+Why Thousands of First-Timers in NYC, Chicago, and DC Are Choosing a Botox Studio Over a Med Spa
+Psychology: Uses social proof ("thousands"), geographic specificity, and a "why" hook that creates an information gap the reader needs to fill. The "Studio vs. Med Spa" framing plants a category distinction question.
+
+
+
+
+4. Authority Positioning
+The Specialized Botox Studio Trusted by Over [X] Clients Across 15 Urban Locations
+Psychology: Specificity builds credibility. "Specialized" encodes expertise and focus. "Trusted by" is softer than "used by" — a trust verb rather than a volume verb.
+
+
+
+
+5. Social Proof Integrated
+"I Was Petrified of Needles — Now I Rebook Every 3 Months." What Peachy First-Timers Actually Say.
+Psychology: Uses exact VOC language ("petrified of needles") in quotation marks to create instant identification. The transformation arc (petrified → rebook every 3 months) shows the journey in one sentence.
+
+
+
+
+6. Urgency/Scarcity Driven(Note: Only use this variant if backed by real availability data)
+[City Name] Appointments Are Booking [X] Days Out. Here's How to Reserve Your Spot.
+Psychology: Real scarcity, not manufactured. Tied to actual booking calendar. Tonally consistent with Peachy's "no gimmicks" brand — because it's true.
+
+
+
+
+7. Transformation Focused
+From "I'm Scared to Try Botox" to "I Can't Believe I Waited This Long" — In One Appointment.
+Psychology: Before/After in a single headline. Borrows social proof structure without attributing it to a specific person. Speaks to the post-experience insight that most first-timers report.
+
+
+
+
+8. Risk Reversal
+What If You Could Try Botox and Still Adjust the Results Two Weeks Later?
+Psychology: Directly neutralizes the "what if I hate it" objection before it's raised. The question format makes it feel like the reader's own thought rather than a sales claim.
+
+
+
+
+9. Question-Based (Final CTA Variant)
+Ready to Look Like the Most Rested Version of Yourself?
+Psychology: Question-behavior effect. The reader mentally answers "yes," which creates micro-commitment to the action. "Most rested version of yourself" anchors the outcome to identity, not vanity.
+
+
+
+
+Subheadline
+Peachy is a specialized Botox studio — not a general med spa — with flat-fee pricing, AI-guided treatment mapping, and a complimentary 2-week dose adjustment included in every visit. Across 15 locations in NYC, Chicago, DC, Atlanta, Austin, and Charlotte.
+
+
+Why this works: The subheadline does three jobs — it differentiates from the competitive set ("not a general med spa"), stacks the three core proof pillars in a scannable list, and handles the "but where are they located?" objection immediately. It's information-dense but not cluttered.
+
+
+
+
+Opening Hook
+Most people who book their first Botox appointment at Peachy say the same thing afterward: "I can't believe I waited so long."Not because the results were dramatic.Because they weren't.They looked like themselves. Just... better. Fresher. Like they'd slept eight hours every night for a month.And they knew exactly what they were paying before they sat in the chair.If you've been quietly researching Botox for a while — worried about looking frozen, worried about being upsold, not sure what you actually need — keep reading. This page was written for you.
+
+
+Why this works: The hook opens a narrative loop (what do they say?) and resolves it in an unexpected direction (not dramatic — the opposite). It uses a relatable physical metaphor ("slept eight hours every night for a month") that resonates with the exhausted professional. The final paragraph directly addresses the hesitant researcher and creates explicit permission to keep reading — which is critical for first-timers who are prone to bounce.
+
+
+
+
+SECTION 3: COMPLETE SALES PAGE ARCHITECTURE
+Full Page Copy — First-Timer Path
+
+
+SECTION 3A: ABOVE-THE-FOLD LAYOUT BLOCK
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[PEACHY LOGO]━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━Botox That Looks Like You — Just More Rested.Natural results. Flat-fee pricing. AI-mapped precision. No units to count. No surprises.[Real photo: clean, well-lit studio. Provider and client, warm but professional. No "before/after" at this stage.][CTA Button: "Find My Nearest Location →"][Secondary text: "Or start with a free consultation"]━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+
+
+
+SECTION 3B: TRUST BAR
+(Immediately below hero — social proof at a glance)
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━★★★★★  |  [X,000]+ Five-Star Reviews  |  15 Locations  |  Flat-Fee Pricing Always  |  Complimentary 2-Week Adjustment━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+
+Placement reasoning: This bar appears before any body copy. It answers "why should I keep reading?" for the skeptical scanner who didn't engage with the headline. Each element is a trust checkpoint targeting a specific anxiety: social proof (reviews), footprint (15 locations), price anxiety (flat-fee), and results anxiety (2-week adjustment).
+
+
+
+
+SECTION 3C: OPENING HOOK / NARRATIVE BRIDGE
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━Most people who book their first Botox appointment at Peachy say the same thing afterward:"I can't believe I waited so long."Not because the results were dramatic.Because they weren't.They looked like themselves. Just better. Fresher. Like they'd slept eight hours every night for a month.And they knew exactly what they were paying before they ever sat in the chair.If you've been quietly researching Botox for a while — worried about looking frozen, not sure what you actually need, not sure if it's worth it yet — this page was written for you.━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+
+
+
+SECTION 3D: PROBLEM/AGITATION SECTION
+Section Title (visual header on page):
+The Botox Concerns Nobody Talks About Out Loud
+
+
+Copy:
+Here's what usually happens when someone starts researching Botox.They see a result they love on Instagram. They start Googling. They find a clinic. They almost book — and then they stop.Because somewhere between "I want to try this" and "I'm ready to book," a few very specific fears show up.Maybe you recognize some of them:▸ "What if I look frozen? Or stiff? Or obvious?"Everyone seems to know someone who "had work done" and looks like a different person. That's not what you want. You want subtle. You want natural. You want people to say "you look great" — not "you look... different."▸ "What if I get upsold into more than I need?"The per-unit pricing model at most clinics makes it nearly impossible to know what your final bill will be until you're already in the chair. That's not a trust-building system. That's a pressure system.▸ "What if I don't actually know what I need —    and they take advantage of that?"You're not a dermatologist. You shouldn't have to become one to get a treatment you feel good about. But without guidance, it's easy to wonder if you're being guided — or steered.▸ "What if I hate the result and there's nothing I can do?"Botox isn't permanent, but three months of waiting for it to wear off isn't a comfortable outcome either.▸ "I'm honestly scared of needles."This one is more common than you think. And it matters.These fears are legitimate. They're also the exact fears that Peachy's entire model was built to eliminate.━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+
+Psychology note: This section uses the PAS framework. Each bullet mirrors an exact fear from the VOC data, amplified briefly, then reframed as solvable. The last line acts as a pivot — it names the fears as the reason Peachy exists, which converts problem awareness into product awareness without making a single sales claim.
+
+
+
+
+SECTION 3E: SOLUTION/POSITIONING BRIDGE
+Section Title:
+Peachy Was Built Specifically for This
+
+
+Copy:
+Most med spas offer Botox as one of thirty services.Peachy offers Botox as the thing they do.That distinction matters — not because focus sounds impressive on a website, but because focus produces better outcomes. When your entire team, your entire system, and your entire experience model is designed around one category of treatment, every detail gets refined in ways that generalist clinics simply can't match.Here's what that looks like in practice:━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━FLAT-FEE PRICINGYou know the price before you book. It doesn't change based on how many units your provider thinks you need in the moment. No surprises. No upsell pressure. No watching the bill climb.Starting at $375. Always.━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━AI-GUIDED TREATMENT MAPPINGBefore your provider injects anything, they create a personalized treatment map for your face — guided by AI precision technology that accounts for your specific anatomy, movement patterns, and treatment goals.This isn't vague "tech." It's the mechanism that makes the difference between "I guess that looks okay" and "this is exactly what I wanted."━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━COMPLIMENTARY 2-WEEK DOSE ADJUSTMENTTwo weeks after your treatment, Botox has fully settled. That's when you — and your provider — can see exactly how your results look. If anything needs a small adjustment, you come back and we take care of it. Included. At no charge.This is Peachy's version of a guarantee: not a money-back policy, but an actual result guarantee.━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━PROVIDERS WHO LEAD WITH LISTENINGNo pressure. No sales scripts. No steering you toward treatments you didn't come in for. Our providers explain what they see, walk you through what they recommend, and let you make the call — at every step.━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+
+
+
+SECTION 3F: STEPS TO SUCCESS
+Section Title:
+What Your First Peachy Visit Actually Looks Like
+
+
+Copy:
+The whole thing is more straightforward than you might expect. Here's the high-level view:STEP 1: BOOK YOUR APPOINTMENTChoose your nearest location and select a time that works for you. First-timers can book a free consultation if they want to talk through options before committing to treatment — or go straight to a treatment appointment if they're ready.STEP 2: GET YOUR PERSONALIZED TREATMENT MAPWhen you arrive, your provider sits down with you — not at you. They listen to what you're hoping to achieve, assess your facial anatomy, and create an AI-guided treatment plan tailored specifically to your face. You'll know exactly what's being treated and why before anything happens.STEP 3: TREATMENT (FASTER THAN YOU THINK)Most treatments take 15-30 minutes. Your provider will walk you through what they're doing in real time. Discomfort is minimal — most clients describe it as a quick pinch, if anything.STEP 4: YOUR TWO-WEEK CHECK-INBotox takes about two weeks to fully settle. That's when you'll see your full result. If anything looks uneven or needs a small tweak, come back and we'll handle it — included as part of your treatment, no additional charge.STEP 5: MAINTAIN (ON YOUR SCHEDULE)Most clients rebook every 3-4 months to maintain their results. When you're ready, rebooking takes about 90 seconds.
+
+
+Psychology note: Steps are written to sell the what, not the how. They reduce decision friction by making the unknown known. The step structure also implicitly answers "what happens after I book?" — which is one of the most common sources of pre-booking anxiety for first-timers.
+
+
+
+
+SECTION 3G: "IS THIS FOR ME?" SECTION
+Section Title:
+This Is Probably For You If...
+
+
+Copy:
+You don't need to be certain Botox is right for you to keep reading. But you might recognize yourself in a few of these:▸ You've started noticing lines in photos — forehead,   between the brows, or around the eyes — that weren't   as visible a year or two ago.▸ You've thought about Botox before but felt hesitant   about the "frozen look" or worried you'd be pressured   into more than you wanted.▸ You want to be proactive about your skin before lines   deepen — not reactive after they already have.▸ You've tried researching clinics and felt overwhelmed   by per-unit pricing, unclear total costs, or reviews   that were hard to evaluate.▸ You want a fast, professional experience that fits   into your actual schedule — not a lengthy, high-pressure   consultation that ends in a treatment menu.▸ You've been referred by a friend who already does   this and keeps saying "just try it" — and part of you   is finally ready to listen.If any of that resonates, you're in the right place.
+
+
+
+
+SECTION 3H: "THIS IS NOT FOR YOU IF" SECTION
+Section Title:
+Peachy Is Probably Not the Right Fit If...
+
+
+Copy:
+Peachy isn't for everyone. Being honest about that is part of how we've earned the trust of the people we are right for.✗ You're looking for dramatic transformation or   significant volume changes. Peachy specializes in   natural-looking, preventative Botox. If you're   exploring fillers or more extensive aesthetic work,   we'd recommend a consultation with a clinic that   specializes in that.✗ You want the lowest possible price above everything else.   Flat-fee pricing isn't always the cheapest option for   minimal treatment. It's the most predictable and the   most honest. If price is the primary driver, that's   worth knowing.✗ You're hoping for a one-time result that lasts years.   Botox is a maintenance treatment — results typically   last 3-4 months. The value is in the routine, not a   single visit.✗ You want a broad menu of services under one roof.   We specialize. That focus is what makes us good at   what we do — but it means we may not offer every   aesthetic service you're interested in.
+
+
+Psychology note: This section does four things simultaneously — it builds trust through radical transparency, it pre-qualifies the buyer so conversion rates improve, it reframes the flat-fee as a premium integrity choice rather than a potential misfit, and it positions Peachy's focus as a feature, not a limitation.
+
+
+
+
+SECTION 3I: SOCIAL PROOF SECTION
+Section Title:
+What Peachy Clients Actually Say
+
+
+Copy + Testimonial Layout:
+
+
+We're not going to show you the most dramatic before-and-after we have on file.We're going to show you what people say.━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━TESTIMONIAL CLUSTER 1: FIRST-TIMER EXPERIENCE★★★★★"I was genuinely petrified of needles and had been putting this off for two years. Everyone at Peachy was so patient and kind. They mapped out exactly where they were going to inject and explained everything in depth. I barely felt it. I left looking like a refreshed version of myself — not different. Just better."— [First name, city]★★★★★"I've been wanting to try Botox for a while but was scared of being upsold or talked into more than I needed. The flat pricing model was the reason I booked. The experience is what made me come back."— [First name, city]━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━TESTIMONIAL CLUSTER 2: NATURAL RESULTS★★★★★"I was worried I'd look frozen. I don't look frozen. I look like me — but like I've been sleeping well and drinking water consistently, which I haven't been."— [First name, city]★★★★★"My coworkers asked if I'd changed my skincare routine. Nobody guessed. That was exactly the goal."— [First name, city]━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━TESTIMONIAL CLUSTER 3: PRICING TRUST★★★★★"The fact that I knew what I was paying before I walked in made such a difference. No awkward 'let me check how many units you need' conversation. No surprise total at checkout. Just a straightforward experience."— [First name, city]━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━TESTIMONIAL CLUSTER 4: 2-WEEK ADJUSTMENT VALUE★★★★★"Two weeks after my first appointment I came back for the complimentary touch-up. One spot needed a tiny adjustment. They fixed it in five minutes at no charge. That's the kind of thing that makes you a loyal client."— [First name, city]━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[X,000]+ five-star reviews across all locations.[Google Reviews Button]  [Yelp Button]  [RealSelf Button]━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+
+Psychology note: Testimonials are deliberately clustered by psychological archetype — first-timer, natural results seeker, price-anxious buyer, and risk-conscious buyer. Each cluster speaks to a specific objection from the avatar profile. The "we're not going to show you the most dramatic before-and-after" line pre-empts skepticism and builds authenticity by naming what other clinics do and explicitly declining to do it.
+
+
+
+
+SECTION 3J: WHAT'S INCLUDED — BENEFIT STACKING
+Section Title:
+What's Included in Every Peachy Appointment
+
+
+Copy:
+There's no "basic package" and "premium package" at Peachy. Every treatment includes:━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━✓ PERSONALIZED TREATMENT CONSULTATION  Your provider assesses your specific anatomy and goals.   This isn't a checkbox — it's the foundation of every   result we produce.    [What this means for you: You're not getting a generic   treatment. You're getting a plan designed for your face.]✓ AI-GUIDED TREATMENT MAPPING  Precision mapping technology guides your provider on   placement and dosage — reducing guesswork and improving   the accuracy of your results.    [What this means for you: The difference between "good"   results and "exactly right" results is often precision.   This is how we get there.]✓ EXPERT PROVIDER CARE  Every Peachy injector is experienced, trained to   Peachy's standards, and focused on natural outcomes —   not volume or upsell targets.    [What this means for you: You're being treated by   someone whose measure of success is your results,   not your bill.]✓ FLAT-FEE TREATMENT  The price you see is the price you pay. Always.    [What this means for you: Zero financial surprises.   You can decide with confidence before you ever book.]✓ COMPLIMENTARY 2-WEEK DOSE ADJUSTMENT  Included in every treatment. If your results need   a small refinement at the two-week mark, come back.   No charge. No awkwardness.    [What this means for you: You're not hoping it turns   out right. You have a built-in safety net if it doesn't.]━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━STARTING AT $375 FLAT FEE.[City-specific pricing note if applicable][CTA: "Book My Appointment →"][Secondary: "Start With a Free Consultation Instead"]━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+
+Psychology note: The "[What this means for you:]" callout under each feature is the benefit translation layer. Features describe what something is; benefits describe what it does for the reader. This format makes the benefit explicit for readers who skim and don't translate on their own — which is most readers.
+
+
+
+
+SECTION 3K: ABOUT SECTION — AUTHORITY + SHARED STRUGGLE
+Section Title:
+Why a Dedicated Botox Studio Changes Everything
+
+
+Copy:
+Here's the honest truth about most Botox experiences: they're fine.You book at a general med spa. The injector is competent. The result is okay. You might not love it, but it's not a disaster. You're not sure if you paid too much. You're not sure when to come back. There was no follow-up about your results.Fine isn't what Peachy was built to deliver.Peachy was built on the idea that a service this personal — one that affects how you look and feel every day — deserves more than "fine." It deserves a system. A standard. A studio designed around one thing, done exceptionally well.That means:A focused environment where every provider, every process, and every technology decision has been made with one question in mind: how do we produce the most natural, precise, consistently good result for this specific person?We've refined that approach across [X] locations and [X,000+] client visits. The reviews are what they are because the results are what they are — not because we're good at marketing. Because we're good at Botox.━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━Peachy operates in 15 locations across New York City, Chicago, Washington DC, Atlanta, Austin, and Charlotte — because the people who want this kind of experience live in cities, work demanding schedules, and deserve a provider they can actually rely on.━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+
+Psychology note: This section does authority positioning through specificity and honesty rather than credential listing. "Fine isn't what we built this for" is a positioning statement that resonates far more with the sophisticated urban buyer than a list of certifications. The acknowledgment that "most Botox experiences are fine" shows intellectual honesty — which the audience reads as trustworthiness.
+
+
+
+
+SECTION 3L: TREATMENTS AVAILABLE
+Section Title:
+What We Treat
+
+
+Copy:
+Peachy specializes in three core treatments:━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━PREVENTATIVE BOTOX / WRINKLE TREATMENTThe most common treatment. Targets forehead lines, crow's feet, and the "11s" between the brows. The earlier you start, the less you'll need long-term to maintain smooth, natural-looking results.Best for: Anyone noticing early lines or wanting to stay ahead of them.━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━MASSETER TREATMENTBotox placed in the jaw muscles reduces the appearance of jaw clenching and teeth grinding effects while softening the lower face for a more refined profile.Best for: Jaw tension, TMJ discomfort, or those who want a slimmer facial silhouette.━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━BOTOX FACIAL WITH AQUAGOLDA micro-infusion facial that delivers a customized blend of Botox and other skin-improving actives into the surface of the skin for a glow, pore-minimizing, texture-refining result.Best for: Skin texture, glow, and pore appearance without a clinical feel.━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━Not sure which is right for you? Start with a free consultation and your provider will walk you through what they'd recommend based on your specific goals.[CTA: "Book a Free Consultation →"]━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+
+
+
+SECTION 3M: FAQ — OBJECTION HANDLING
+Section Title:
+Questions People Actually Ask Before Booking
+
+
+Copy:
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━Q: Will I look frozen or unnatural?The short answer is: not with good technique, appropriate dosing, and a provider who's listening to what you actually want.The longer answer is that "frozen" results are almost always the product of too many units, placed without attention to how your specific face moves. Peachy's AI-guided treatment mapping and natural-result focus exist specifically to prevent this. Our most common review phrase is "natural-looking." That's not a marketing tagline. It's what people say when they're describing their results.━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━Q: What does "flat-fee pricing" actually mean?It means you pay one price for your treatment — not a per-unit price that varies based on how much product your provider decides you need in the moment. Your total is visible before you book. It doesn't change when you arrive.Peachy's flat-fee model removes the financial guesswork that makes most people anxious about Botox pricing — and it removes the structural upsell incentive that creates distrust at per-unit clinics.━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━Q: What if I don't like my results?Two weeks after your treatment, Botox has fully settled. That's your check-in window. If anything looks slightly uneven or needs a small adjustment, come back and we'll take care of it. This is included in every treatment — not as a policy exception, but as a standard part of how Peachy operates.━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━Q: I'm scared of needles. Is this going to be    really uncomfortable?This is one of the most common things people tell us — and one of the most common things they're surprised by afterward. Most clients describe the sensation as a quick, small pinch. Some feel almost nothing. Your provider will explain what they're doing in real time and move at a pace you're comfortable with.We can't promise it's completely painless for everyone. We can promise we've done this for a lot of people who walked in terrified and left perfectly fine.━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━Q: How do I know if Botox is right for me yet?That's exactly what a free consultation is for. Your provider will assess what you're working with, explain what they'd recommend, and give you an honest opinion — including if they think you'd benefit more from a different approach or if it's too early for treatment. There's no obligation to book treatment at a consultation. None.━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━Q: How long does it last and how often    will I need to come back?Results from most Botox treatments last approximately 3-4 months. Most clients who maintain results rebook on that cycle. Some people find they can go slightly longer as their muscles adjust over multiple treatments.━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━Q: I don't know what areas I need treated.    Will you just tell me?Yes. That's the consultation. Your provider assesses your face, listens to your goals, and tells you what they'd recommend — and why. You're in control of what you decide to treat. They're there to guide the decision, not make it for you.━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━Q: Is this safe?Botox is one of the most studied aesthetic treatments in the world with decades of clinical use. When administered by a trained provider at appropriate doses, it has a well-established safety profile. Peachy providers are trained to Peachy's clinical standards and treat aesthetic outcomes as a medical responsibility, not a retail transaction.If you have specific medical questions or concerns, they should be raised at your consultation — that's exactly what it's there for.━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+
+
+
+SECTION 3N: LOCATION SELECTOR
+Section Title:
+Find Your Nearest Peachy Location
+
+
+Copy:
+Peachy has 15 locations across:🗽 New York City        🏙️ Chicago🏛️ Washington DC       🌲 Atlanta🌵 Austin              🏙️ Charlotte[Interactive location selector / zip code lookup][CTA: "Find Locations Near Me →"]━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+
+
+
+SECTION 3O: FINAL CTA BLOCK
+Section Title:
+Ready to Look Like the Most Rested Version of Yourself?
+
+
+Copy:
+Your first visit doesn't have to be a treatment.Start with a free consultation. Your provider will walk you through what they'd recommend for your specific face and goals. There's no obligation. No pressure. No sales pitch at the end.Just an honest conversation about what Botox can and can't do for you — and whether Peachy is the right fit.If you're ready to book treatment directly, that option is right here too. You already know the price. You already know what's included.The only thing left is to pick a time.[CTA Button: "Book My Free Consultation →"][Secondary: "Skip to Treatment Booking →"][Trust reinforcement under CTAs:]★★★★★  [X,000]+ five-star reviews  Flat-fee pricing. AI-guided mapping.  Complimentary 2-week adjustment included.━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+
+
+
+SECTION 4: CALL-TO-ACTION VARIATIONS
+5 CTA Approaches With Psychological Reasoning
+
+
+CTA 1: Specific Action-Focused
+[BUTTON] Book My First Appointment at [City Location] →
+Psychological reasoning: Specificity reduces friction. Including "First Appointment" normalizes the action for a first-timer and signals that Peachy expects and welcomes new clients. City specificity creates local relevance. This CTA works best in above-the-fold and mid-page placement on city-specific variants.
+
+
+Mobile optimization: Button height minimum 48px. City name should auto-populate from geolocation if technically feasible.
+
+
+
+
+CTA 2: Benefit-Driven
+[BUTTON] Get My Personalized Treatment Plan →
+Psychological reasoning: Shifts focus from "booking an appointment" (commitment) to "getting a plan" (receiving information). Lower psychological barrier. Pairs well with the AI mapping benefit section and is ideal for first-timers who are in information-gathering mode rather than decision mode.
+
+
+Placement recommendation: Immediately following the AI mapping explanation block and the Steps to Success section.
+
+
+
+
+CTA 3: First-Person Positioning
+[BUTTON] Start My Peachy Journey →
+Psychological reasoning: First-person framing creates psychological ownership before the action is taken. "Journey" language signals this is a long-term relationship, not a transaction — which builds perceived brand equity while lowering commitment anxiety. Best used for retargeting audiences who have already visited the page.
+
+
+Placement recommendation: Mid-funnel email sequences and retargeting ad landing pages.
+
+
+
+
+CTA 4: Question-Behavior Effect (Final CTA)
+[BUTTON] Yes — I Want to Look Like Myself Again →
+Psychological reasoning: The question-behavior effect says that asking someone to predict their behavior increases the likelihood they'll follow through. "I want to look like myself again" mirrors the exact desired outcome of the primary avatar in their own language — creating a micro-identity statement that ties the CTA to self-concept rather than product purchase.
+
+
+Placement recommendation: Final CTA block only. This framing is too emotionally loaded for early-page use.
+
+
+
+
+CTA 5: Risk-Reversal Anchored
+[BUTTON] Book Now — With a Complimentary 2-Week Adjustment Included →
+Psychological reasoning: Embedding the risk reversal directly into the CTA eliminates the "but what if I don't like it?" hesitation at the exact moment of decision. This is the most powerful BOFU conversion mechanism in Peachy's offer stack — placing it at the point of action maximizes its impact.
+
+
+Placement recommendation: Directly after the testimonial clusters and before/after the FAQ section. Works best for the most hesitant segment.
+
+
+Mobile optimization: The text may be long for a button on small screens. Mobile variant: "Book Now — Adjustment Included If You Need It →"
+
+
+
+
+CTA Placement Map Across Full Page
+
+
+
+
+SECTION 5: CONVERSION OPTIMIZATION PACKAGE
+A/B Testing Roadmap
+Priority 1 — Headline Testing (Highest Impact)
+Test A vs. B:
+* A: "Botox That Looks Like You — Just More Rested." (identity-focused, soft)
+* B: "Natural-Looking Botox. Flat-Fee Pricing. Zero Guesswork." (benefit-stacked, rational)
+
+
+Hypothesis: Version A will outperform for first-timers arriving from social/referral traffic (emotional entry). Version B may outperform for search traffic with explicit intent (rational entry).
+
+
+Measurement: Scroll depth past hero, time-on-page, and CTA click rate within first 90 seconds.
+
+
+Expected impact: 15-25% difference in above-fold engagement.
+
+
+
+
+Priority 2 — Risk Reversal CTA Placement
+Test A vs. B:
+* A: 2-week adjustment mention embedded in "What's Included" section only
+* B: 2-week adjustment language embedded directly inside the primary CTA button text
+
+
+Hypothesis: Version B reduces booking abandonment for first-timers by neutralizing "what if I hate it" hesitation at the exact moment of decision.
+
+
+Measurement: CTA click-through rate and booking completion rate.
+
+
+Expected impact: 10-20% improvement in booking completion.
+
+
+
+
+Priority 3 — Consult vs. Direct Book Path Split
+Test A vs. B:
+* A: Primary CTA = "Book Treatment Directly" / Secondary = "Free Consultation"
+* B: Primary CTA = "Start With a Free Consultation" / Secondary = "Book Treatment Directly"
+
+
+Hypothesis: For first-timer traffic, Version B will produce higher total booking rates by routing hesitant visitors to a lower-commitment first step that still enters the funnel.
+
+
+Measurement: Total appointment rate (consult + treatment combined), show rate, consult-to-treatment conversion.
+
+
+Expected impact: Net booking rate improvement of 15-30% for first-timer segment.
+
+
+
+
+Priority 4 — Testimonial Cluster Format
+Test A vs. B:
+* A: All testimonials in a scrollable row by recency
+* B: Testimonials segmented into labeled clusters (First-Timer Experience / Natural Results / Pricing Trust / Adjustment Value)
+
+
+Hypothesis: Segmented clusters produce higher relevance for readers self-identifying into a category — increasing emotional resonance and time on proof section.
+
+
+Measurement: Time spent in proof section, scroll rate past proof to CTA, CTA click rate from users who engaged with proof.
+
+
+Expected impact: 10-15% improvement in proof-section-to-CTA conversion rate.
+
+
+
+
+Priority 5 — Hero Section Visual
+Test A vs. B:
+* A: Lifestyle photo (provider + client in warm studio environment)
+* B: Clean product/environment shot (Peachy studio, no people visible)
+
+
+Hypothesis: Human connection image (A) outperforms for first-timers who need trust signals. Environmental image (B) may perform better for return-traffic who need location confirmation.
+
+
+Measurement: Segment by new vs. returning visitor in analytics. Compare engagement rates by visual variant per traffic source.
+
+
+
+
+Mobile vs. Desktop Optimization Strategy
+Mobile-First Priorities
+Hero Section:
+* Headline max: 8-10 words on mobile (break into two lines maximum)
+* Subheadline: max 2 lines visible without scroll on a 375px screen
+* CTA button: full-width, minimum 56px height, stacked (no side-by-side CTAs)
+* Trust bar: scrolling ticker or 2-item display with swipe, not 5-item row
+
+
+Testimonials:
+* Single-column display, full testimonial visible without expand
+* Star rating and name above the testimonial text for immediate scanning
+* Cluster labels as visual dividers between groups
+
+
+Steps to Success:
+* Numbered steps with large numerals — scannable on mobile scroll
+* Each step max 3 lines on mobile without expansion
+* No horizontal layouts — strictly vertical stacking
+
+
+FAQ:
+* Accordion format is required on mobile — full-text FAQ is not scrollable
+* First question auto-expanded to demonstrate interaction
+* Questions written at 10 words or fewer for mobile display
+
+
+CTA Buttons:
+* Sticky bottom CTA bar for mobile users — visible throughout scroll
+* Sticky bar: "Book Appointment | Free Consultation" — two taps, two paths
+* Eliminates the need for the user to scroll back to top or find a CTA section
+
+
+
+
+Visual Hierarchy Recommendations
+Headline: 48-64px desktop / 32-40px mobile. Bold weight. Maximum contrast.
+
+
+Subheadline: 22-28px desktop / 18-22px mobile. Regular weight. 70% opacity or secondary color.
+
+
+Body copy: 16-18px. Line height 1.6-1.8. Never below 16px.
+
+
+Section dividers: Visible horizontal rules or substantial whitespace (48px minimum between sections).
+
+
+Bullet points and lists: Never more than 6 items before a break. Em-dash or custom icon, not default bullets.
+
+
+CTA buttons: High contrast to background. Brand-primary color. White text. Rounded corners for approachability signal (not sharp/aggressive).
+
+
+Trust bar: Light background band, centered, all elements equal visual weight.
+
+
+
+
+Page Speed Checklist
+* Hero image compressed to under 200KB (WebP format preferred)
+* Testimonial section uses lazy loading below the fold
+* No video autoplay on mobile (link to video thumbnail with play button)
+* Font loading via system fonts or preloaded brand font (no render-blocking)
+* CTA buttons: CSS-only, no image-based buttons
+* All images include alt text (accessibility + SEO)
+* Page target: under 2.5 seconds on 3G mobile connection
+* No pop-ups that fire within first 5 seconds of page load
+
+
+
+
+SECTION 6: FUNNEL INTEGRATION ELEMENTS
+Alignment With Confirmation Page Strategy
+Immediately post-booking, the confirmation page should:
+
+
+CONFIRMATION PAGE COPY FRAMEWORK:Headline: "You're Booked. Here's What Happens Next."Subheadline: "Everything you need to know before your appointment — so you walk in confident."Section 1: Appointment Details (date, time, location,            provider name if known)Section 2: What to Do Before Your Visit           - Come with clean skin (no makeup on treatment areas)           - Avoid blood thinners (aspirin, ibuprofen, alcohol)              24-48 hours before if possible           - Arrive 5-10 minutes early for intakeSection 3: What to Expect in Your First Appointment           - Brief review of your goals           - AI-guided treatment mapping           - Treatment (15-30 minutes)           - Post-treatment care instructionsSection 4: Your 2-Week Adjustment Is Already Included           "If anything needs a small refinement at two weeks,            you're already covered."Section 5: Add to Calendar / Share Location           [Apple Calendar] [Google Calendar] [Directions]Section 6: Questions?            [Chat link or phone number — human contact,            not bot for medical service]
+
+
+Psychology: The confirmation page does four jobs: reduces cancellation anxiety by normalizing the unknown, sets accurate expectations to reduce no-show hesitation, reinforces the risk reversal at a high-trust moment, and begins the pre-visit education sequence that increases show rate.
+
+
+
+
+Email Sequence Alignment
+Email 1 — Booking Confirmation (Immediate)Theme: You made a great decision. Here's exactly what to expect.Key message: expectation-setting, arrival prep, 2-week adjustment reminder
+
+
+Email 2 — 24 Hours Before (Pre-Visit)Theme: You're tomorrow. Here's the short version of what to expect.Key message: prep instructions, location reminder, normalize first-timer nervousness
+
+
+Email 3 — 2 Hours Before (Day-Of)Theme: See you soon. One last thing.Key message: parking/arrival logistics, contact info if needed, brief encouragement
+
+
+Email 4 — Day 1 Post-VisitTheme: How was it?Key message: care instructions, review request if experience was positive, 2-week adjustment reminder planted early
+
+
+Email 5 — Day 14 (2-Week Adjustment)Theme: Your Botox has fully settled. Time to look.Key message: book adjustment if needed, review request (second touch), referral prompt seeded
+
+
+Email 6 — Day 30 (Results Check + Referral)Theme: One month in. What do you think?Key message: referral offer introduced ("Know someone who'd love this?"), rebook horizon set
+
+
+Email 7 — Day 75 (Rebook Warning)Theme: Your results may be starting to fade. Here's what that looks like.Key message: educational content about maintenance cycle, soft rebook CTA
+
+
+Email 8 — Day 90 (Rebook Push)Theme: Time to rebook.Key message: direct booking CTA, one-click rebook link, pre-populated with last treatment type
+
+
+Messaging Consistency Check:All emails should maintain the same voice as the sales page — warm, expert, honest, no pressure. The email sequence is the relational continuation of the sales page relationship, not a separate marketing function.
+
+
+
+
+Traffic Temperature Optimization
+
+
+
+
+SECTION 7: SOCIAL PROOF STRATEGY
+Complete Proof Architecture
+Testimonial Placement Logic
+Above the fold (trust bar): Review count and star rating only. No text. Speed.
+
+
+After problem/agitation section: 1-2 testimonials from first-timers who had the exact fears described. Psychology: Proof arrives exactly when the reader is identifying with the pain — which creates the deepest resonance.
+
+
+After "What's Included" section: 1-2 testimonials specifically about pricing transparency and the AI mapping outcome. Psychology: Feature claims need immediate proof reinforcement to avoid skepticism.
+
+
+Dedicated proof cluster block: Full testimonial sections segmented by audience type (see Section 3I).
+
+
+Near final CTA: 1 powerful single testimonial — ideally someone who was hesitant and is now a repeat client. Psychology: The last proof point before the decision should mirror the mental state of someone who was exactly where the reader is right now.
+
+
+
+
+Testimonial Formatting Standards
+What makes a testimonial believable at Peachy's sophistication level:
+
+
+✓ First name + city/neighborhood (not "NYC Client")✓ Mentions a specific concern, not a general positive✓ Results described in natural language, not marketing language✓ Acknowledges pre-treatment hesitation (creates identification)✓ Written in the person's own voice — not polished into smoothness✓ Average-case results, not exceptional outliers
+
+
+What destroys testimonial credibility:
+
+
+✗ Full name + professional title (reads like an endorsement deal)✗ "Life-changing" or "amazing" without specifics✗ Testimonials that sound written by the same person✗ Before/after photos with dramatically visible difference (reads as cherry-picked)✗ Testimonials about results that are faster/more dramatic than typical
+
+
+
+
+Authority Indicators
+Primary Trust Signals (use throughout page):
+* Review count with linked verification (Google, Yelp, RealSelf)
+* Number of locations (15 — encodes scale and legitimacy)
+* Years in operation (if available)
+* Named providers with photos and brief bios (humanizes authority)
+* HIPAA compliance signals (especially important for first-timers)
+
+
+Secondary Trust Signals (use in footer/trust bar):
+* Clean, professional studio photography (environment = credibility)
+* Consistent branding and visual quality (signals operational maturity)
+* Clear contact information, easy cancellation policy
+* Medical credentials of injector team (without being cold/clinical)
+
+
+What to avoid: Vague authority claims ("industry-leading," "best in class"), credential walls that read as defensive rather than confident, stock photography anywhere in a medical-adjacent service.
+
+
+
+
+The Believability Calibration
+For Peachy's audience sophistication level (Stage 4-5), proof must be specific enough to be verifiable and ordinary enough to be believable. The goal is not the most impressive testimonial — it's the most relatable one.
+
+
+The "could my friend have written this?" test: If a testimonial reads like it could have been written by a real person who genuinely had this experience, it passes. If it sounds like marketing copy, it doesn't work — even if it's 100% authentic.
+
+
+
+
+SECTION 8: TECHNICAL IMPLEMENTATION GUIDE
+Tracking Pixel Placement
+Required Pixel Events (in priority order):
+
+
+
+
+HIPAA Advisory: Pixel implementation in a medical-adjacent context requires careful evaluation. Ensure no health-specific data (appointment type details, treatment names in URLs) is transmitted in pixel events. Implement server-side tagging where possible to maintain compliance. All email and CRM vendors must have executed BAAs. Consult legal/compliance before activating full pixel stack.
+
+
+
+
+CRM Integration Points
+Lead Entry Points:
+* Quiz completion → CRM tag: [QuizSegment] + [Location] + [ExperienceLevel]
+* Free consultation booking → CRM tag: [ConsultBooked] + [Location] + [Date]
+* Treatment booking → CRM tag: [TreatmentBooked] + [ServiceType] + [Location]
+* Email opt-in (lead magnet) → CRM tag: [EmailCapture] + [Source] + [Date]
+
+
+Automation Trigger Points:
+* [ConsultBooked] → Enter pre-consult email sequence
+* [TreatmentBooked] → Enter pre-visit education sequence
+* [PostVisit_Day1] → Enter review request + retention sequence
+* [Day75_NoRebook] → Enter reactivation sequence
+* [ReviewLeft_Positive] → Enter referral prompt sequence
+
+
+Segmentation Tags to Implement from Day One:
+* Experience level: [FirstTimer] / [RepeatBotox] / [PeachyRepeat]
+* City: [NYC] / [Chicago] / [DC] / [Atlanta] / [Austin] / [Charlotte]
+* Service type: [Wrinkle] / [Masseter] / [AquagoldFacial]
+* Traffic source: [PaidSearch] / [PaidSocial] / [Organic] / [Referral] / [Email]
+* Funnel path: [PathA_DirectBook] / [PathB_QuizNurture] / [PathC_ConsultFirst]
+
+
+
+
+Mobile Responsiveness Checklist
+* Hero headline: maximum 2 lines on 375px viewport
+* All CTAs: minimum 48px height, full-width on mobile
+* Sticky CTA bar: activated on mobile scroll past fold
+* Trust bar: 2-item rotating display on mobile, 5-item static on desktop
+* Testimonials: single-column, no carousel (accessibility + friction)
+* FAQ: accordion format — closed by default except first item
+* Location selector: thumb-friendly map or list view, not dropdown
+* Videos: thumbnail-click-to-play (no autoplay on mobile)
+* Forms: single field visible at a time on mobile (reduce overwhelm)
+* Images: WebP format, responsive srcset implemented
+* Font sizes: minimum 16px body, minimum 28px mobile headline
+* Spacing: minimum 16px padding on all sides at 375px
+* Touch targets: minimum 44x44px for all interactive elements
+
+
+
+
+Analytics Setup for Conversion Tracking
+Primary Dashboard Metrics (check weekly):
+
+
+
+
+Secondary Metrics (check monthly):
+
+
+
+
+
+
+Final Integration Note: Funnel Coherence Standard
+Every element of this sales page — from the headline to the final CTA — is built around a single psychological throughline:
+
+
+"The only risk you're taking is looking more like yourself."
+
+
+That line doesn't appear verbatim on the page. But it lives in every section:
+* The natural-results positioning eliminates the appearance risk
+* The flat-fee pricing eliminates the financial risk
+* The AI mapping eliminates the precision risk
+* The 2-week adjustment eliminates the results risk
+* The no-pressure consultation eliminates the sales risk
+
+
+When the entire page is orchestrated around eliminating the five specific fears of this specific audience — rather than stacking claims or pushing product features — the conversion doesn't happen because of persuasion.
+
+
+It happens because the reader runs out of reasons not to book.
+
+
+That's the anti-selling approach in its complete form.
+
+
+
+
+Implementation note: This full page system is designed for the First-Timer path (Path B) in the dual-path funnel architecture. A companion system for the Repeat Client / Direct Book path (Path A) should be built as a streamlined 40% shorter variant — beginning at the proof section, leading with direct booking CTA, and eliminating the educational and objection-handling content that experienced buyers do not need and may find condescending.
